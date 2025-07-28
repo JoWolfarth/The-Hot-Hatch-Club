@@ -19,7 +19,7 @@ if os.path.isfile("env.py"):
     DEBUG = True
 else:
     DEBUG = False
-    
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -34,8 +34,7 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 
 
-ALLOWED_HOSTS = ['127.0.0.1', 'the-hot-hatch-club.herokuapp.com']
-
+ALLOWED_HOSTS = ['127.0.0.1', '.herokuapp.com']
 
 
 # Application definition
