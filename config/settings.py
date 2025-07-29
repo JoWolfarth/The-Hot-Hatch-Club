@@ -17,7 +17,7 @@ import os
 if os.path.isfile("env.py"):
     import env
 
-DEBUG = False
+DEBUG = True
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
