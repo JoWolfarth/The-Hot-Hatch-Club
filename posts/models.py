@@ -24,4 +24,4 @@ class Post(models.Model):
 
 
 def __str__(self):
-    return f"The title of this post is {self.title}"
+    return f"The title of this post is {self.vehicle}"
