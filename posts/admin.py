@@ -11,3 +11,7 @@ class PostAdmin(SummernoteModelAdmin):
     list_filter = ('status', 'created_on', 'user')
     prepopulated_fields = {'slug': ('vehicle',)}
     summernote_fields = ('content',)
+
+    def make_published(self, request, queryset):
+        queryset.update(status=1)
+    make_published.short_description = "mark selected posts as published"
