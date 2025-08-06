@@ -38,7 +38,7 @@ def create_post(request):
             post.user = request.user
             post.save()
             messages.success(request, "Your post is waiting approval!")
-            return reverse('home')
+            return HttpResponseRedirect(reverse('home'))
     else:
         form = PostForm()
 
