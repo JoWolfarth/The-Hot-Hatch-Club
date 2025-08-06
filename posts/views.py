@@ -1,7 +1,8 @@
-from django.shortcuts import render, get_object_or_404, redirect
+from django.shortcuts import render, get_object_or_404, reverse
 from django.views import generic
 from django.contrib.auth.decorators import login_required
 from django.contrib import messages
+from django.http import HttpResponseRedirect
 from .models import Post
 from .forms import PostForm
 
@@ -37,9 +38,39 @@ def create_post(request):
             post.user = request.user
             post.save()
             messages.success(request, "Your post is waiting approval!")
-            return redirect('home')
+            return reverse('home')
     else:
         form = PostForm()
+
+    return render(
+        request,
+        "posts/create_post.html",
+        {
+            "form": form,
+        },
+    )
+
+@login_required
+def edit_post(request, post_id):
+    """
+    View for editing a new post.
+    Login is required to access this view.
+    """
+    post = get_object_or_404(Post, pk=post_id)
+    if post.user != request.user:
+        messages.error(request, "You do not have permission to edit this post.")
+        return HttpResponseRedirect(reverse('post_detail', args=[post.slug]))
+    if request.method == "POST":
+        form = PostForm(request.POST, request.FILES, instance=post) 
+        if form.is_valid():
+            edited_post = form.save(commit=False)
+            edited_post.user = request.user
+            edited_post.approved = False
+            edited_post.save()
+            messages.success(request, "Your post is waiting approval!")
+            return HttpResponseRedirect(reverse('home'))
+    else:
+        form = PostForm(instance=post)
 
     return render(
         request,
