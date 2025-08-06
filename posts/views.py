@@ -50,6 +50,7 @@ def create_post(request):
         },
     )
 
+
 @login_required
 def edit_post(request, post_id):
     """
@@ -61,7 +62,7 @@ def edit_post(request, post_id):
         messages.error(request, "You do not have permission to edit this post.")
         return HttpResponseRedirect(reverse('post_detail', args=[post.slug]))
     if request.method == "POST":
-        form = PostForm(request.POST, request.FILES, instance=post) 
+        form = PostForm(request.POST, request.FILES, instance=post)
         if form.is_valid():
             edited_post = form.save(commit=False)
             edited_post.user = request.user
@@ -77,5 +78,31 @@ def edit_post(request, post_id):
         "posts/create_post.html",
         {
             "form": form,
+        },
+    )
+
+
+def delete_post(request, post_id):
+    """
+    View for deleting a post.
+    Login is required to access this view.
+    """
+    post = get_object_or_404(Post, id=post_id)
+    if post.user != request.user:
+        messages.error(request, "You do not have permission to delete this post.")
+        return HttpResponseRedirect(reverse('post_detail', args=[post.slug]))
+    if request.method == "POST":
+        post.delete()
+        messages.success(request, "Your post has been deleted.")
+        return HttpResponseRedirect(reverse('home'))
+    else:
+        form = PostForm(instance=post)
+
+    return render(
+        request,
+        "posts/create_post.html",
+        {
+            "form": form,
+            
         },
     )

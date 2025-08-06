@@ -30,7 +30,37 @@
     </div>
     {% if user.is_authenticated and post.user == user %}
         <a href="{% url 'edit_post' post.id %}" class="btn btn-edit" post_id="{{ post.id }}">Edit</a>
+        <button class="btn btn-delete" post_id="{{ post.id }}">Delete</button>
     {% endif %}
+</div>
+
+
+<!-- Delete confirmation modal -->
+<div class="modal fade" id="deleteModal" tabindex="-1"
+  aria-labelledby="deleteModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title"
+                    id="deleteModalLabel">Delete post?</h5>
+                <button type="button" class="btn-close"
+                    data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Are you sure you want to delete your post?
+                This action cannot be undone.
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary"
+            data-bs-dismiss="modal">Close</button>
+            <form id="deleteForm" method="POST" action="">
+                {% csrf_token %}
+                <button type="submit" class="btn btn-danger">Delete</button>
+            </form>
+
+            </div>
+        </div>
+    </div>
 </div>
 
 
