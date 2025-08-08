@@ -4,7 +4,7 @@
 <h2>Table Of Contents</h2>
 
 1.  [Introduction](#Introduction)
-2.  [UX Design](#UX_Design)
+2.  [UX Design](#UX-Design)
      - [User Stories](#User_Stories)
      - [Colour Pallet](#Color_Pallet)
      -[Fonts](#Fonts)
