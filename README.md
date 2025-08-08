@@ -5,16 +5,16 @@
 
 1.  [Introduction](#Introduction)
 2.  [UX Design](#UX-Design)
-     - [User Stories](#User_Stories)
-     - [Colour Pallet](#Color_Pallet)
-     -[Fonts](#Fonts)
+     - [User Stories](#User-Stories)
+     - [Colour Pallet](#Color-Pallet)
+     - [Fonts](#Fonts)
 3.  [WireFrames](#WireFrames)
 4.  [ERD](#ERD)
 5.  [Deployment](#Deployment)
 6.  [Features](#Features)
-7.  [Agile Design](#Agiles_Design)
+7.  [Agile Design](#Agiles-Design)
 8.  [Testing](#Testing)
-9.  [AI Usage](#AI_Usage)
+9.  [AI Usage](#AI-Usage)
 10. [Credits](#Credits)
 
 
