@@ -12,10 +12,11 @@
 4.  [ERD](#ERD)
 5.  [Deployment](#Deployment)
 6.  [Features](#Features)
-7.  [Agile Design](#Agiles-Design)
-8.  [Testing](#Testing)
-9.  [AI Usage](#AI-Usage)
-10. [Credits](#Credits)
+7.  [Tech Stack](#Tech-Stack)
+8.  [Agile Design](#Agiles-Design)
+9.  [Testing](#Testing)
+10. [AI Usage](#AI-Usage)
+11. [Credits](#Credits)
 
 
 <h2 align="center">Introduction</h2>
@@ -26,7 +27,7 @@ Built as a Django capstone project, Hot Hatch Club showcases key web development
 
 
 
-## UX Design
+<h2>UX Design</h2>
 <h3>User Stories<h3>
 
 <h4>Must Haves</h4>
@@ -162,10 +163,6 @@ Stage 8 – Ensured it is set to EcoDyno
 Stage 9 – Connect to Github
 Stage 10 – Deploy on Heroku and view app to confirm deployment
 
-
-
-
-
 <h2>Features</h2>
 
 Home page,
@@ -175,3 +172,19 @@ Nav bar
 Footer
 Signup page & sign in page
 Admin page from Heroku
+
+<h2>Tech Stack</h2>
+
+- Django (Python)
+- HTML, CSS, Bootstrap 
+- Heroku (deployment)
+- Git & GitHub (version control)
+
+
+<h2>Agile Design</h2>
+
+<h2>Testing</h2>
+
+<h2>AI Usage</h2>
+
+<h2>Credits</h2>
