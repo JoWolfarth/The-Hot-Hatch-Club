@@ -184,9 +184,12 @@ Stage 10 – Deploy on Heroku and view app to confirm deployment
 
 <h2>Agile Design</h2>
 
+To stay on track with the Agile framework and make sure I delivered a solid Minimum Viable Product (MVP), I used a Kanban board along with the MoSCoW prioritization method. This helped me organize tasks by importance—focusing on what must be done first, while keeping less critical features for later. Using these tools made it easier to manage progress, avoid delays, and stay focused on the key features needed for the MVP. It also gave me flexibility to adjust as the project developed
+
 <h2>Testing</h2>
 
 <h2>AI Usage</h2>
+
 AI tools were used throughout the development process to enhance efficiency, accuracy, and decision-making. GitHub Copilot and inline chat supported code creation by completing repetitive structures and suggesting relevant snippets, allowing me to focus on core logic. Inline chat also played a key role in debugging, helping identify and resolve issues quickly while deepening my understanding of the codebase.
 For testing and optimisation, I used tools like Lighthouse to assess performance and accessibility, and W3Schools AI assistant to clarify HTML, CSS, and JavaScript behavior during frontend refinement. These tools provided actionable insights that improved both user experience and code quality. Copilot also generated Django unit tests for key features, which I reviewed and adjusted to ensure meaningful coverage and logical accuracy.
 Overall, AI tools significantly improved my workflow by reducing manual effort, accelerating problem-solving, and supporting better design decisions. I plan to continue using them during final testing and will expand this reflection as further refinements are made.
