@@ -1,5 +1,5 @@
 <h1 align="center"> The-Hot-Hatch-Club </h1>
-![Hero Image](./Readme_files/Hero_image/default.jpg)
+![Hero Image](Readme_files/Hero_image/default.jpg)
 
 
 <h2 align="center">Introduction</h2>
