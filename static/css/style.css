@@ -72,10 +72,6 @@ body {
     position: relative;
 }
 
-#footer {
-    color: var(--text);
-}
-
 .image-flash {
     position: absolute;
     bottom: 5%;

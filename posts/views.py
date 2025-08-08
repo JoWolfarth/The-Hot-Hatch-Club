@@ -103,6 +103,6 @@ def delete_post(request, post_id):
         "posts/create_post.html",
         {
             "form": form,
-            
+
         },
     )
