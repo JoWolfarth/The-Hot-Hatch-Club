@@ -1,5 +1,5 @@
 <h1 align="center"> The-Hot-Hatch-Club </h1>
-![Hero Image](/Readme_files/Hero_image/default.jpg)
+![Hero Image](./Readme_files/Hero_image/default.jpg)
 
 
 <h2 align="center">Introduction</h2>
@@ -89,7 +89,7 @@ As a **visitor** I can **click on a post for full details** so that **I can lear
 - Vehicle details and user comments are shown clearly
 
 
-<h4>Should Haves</h4>>
+<h4>Should Haves</h4>
 As a **post author** I can **upload photos** so that **I can show off my vehicle**
 
 *Acceptance Criteria*
@@ -124,10 +124,10 @@ As a **club member** I can **view upcoming organised events** so that **I can pl
 - Events display on a dedicated page or section accessible from the main navigation
 
 <h3>Colour Pallet</h3>
-[View Colour Pallet](./Readme_files/colour_pallet.png)
+[View Colour Pallet](./Readme_files/Colour_pallet/The_Hot_Hatch1_Club.png)
 
 <h3>Wireframes</h3>
-[View Wireframes](./Readme_files/wireframes.png)
+[View Wireframes](./Readme_files/Wireframes/The_Hot_Hatch_Club.bmpr)
 
 <h2>ERD</h2>
 
