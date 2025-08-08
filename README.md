@@ -6,7 +6,7 @@
 1.  [Introduction](#Introduction)
 2.  [UX Design](#UX-Design)
      - [User Stories](#User-Stories)
-     - [Colour Pallet](#Color-Pallet)
+     - [Colour Pallet](#Colour-Pallet)
      - [Fonts](#Fonts)
 3.  [WireFrames](#WireFrames)
 4.  [ERD](#ERD)
