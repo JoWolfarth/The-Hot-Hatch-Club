@@ -1,8 +1,5 @@
 <h1 align="center"> The-Hot-Hatch-Club </h1>
-![Hero Image]{static/images/default.jpg}
-
-
-
+![Hero Image](/Readme_files/Hero_image/default.jpg)
 
 
 <h2 align="center">Introduction</h2>
@@ -16,7 +13,7 @@ Built as a Django capstone project, Hot Hatch Club showcases key web development
 <h2>UX Design</h2>
 <h3>User Stories<h3>
 
-**Must Haves** <br>
+<h4>Must Haves</h4>
 As a **visitor** I can **register** so that **I can post about my vehicle**.
 
 *Acceptance Criteria*
@@ -61,7 +58,7 @@ As a **visitor** I can **log in & out** so that **I can edit my posts & comments
 - Registered users can access protected content
 
 
-As a post author I can **delete my posts** so that **can keep my content accurate and up to date.**
+As a **post author** I can **delete my posts** so that **can keep my content accurate and up to date.**
 
 *Acceptance Criteria*
 
@@ -92,7 +89,7 @@ As a **visitor** I can **click on a post for full details** so that **I can lear
 - Vehicle details and user comments are shown clearly
 
 
-**Should Haves**
+<h4>Should Haves</h4>>
 As a **post author** I can **upload photos** so that **I can show off my vehicle**
 
 *Acceptance Criteria*
@@ -115,7 +112,7 @@ As a **logged in user** I can **add comments to a post** so that **I can share f
 - Comment section updates dynamically or on page reload to include new messages
 
 
-**Could Haves**
+<h4>Could Haves</h4>
 As a **club member** I can **view upcoming organised events** so that **I can plan to attend and engage with the Hot Hatch community.**
 
 *Acceptance Criteria*
@@ -126,7 +123,11 @@ As a **club member** I can **view upcoming organised events** so that **I can pl
 
 - Events display on a dedicated page or section accessible from the main navigation
 
-<h2>Wireframes</h2>
+<h3>Colour Pallet</h3>
+[View Colour Pallet](./Readme_files/colour_pallet.png)
+
+<h3>Wireframes</h3>
+[View Wireframes](./Readme_files/wireframes.png)
 
 <h2>ERD</h2>
 
@@ -144,6 +145,9 @@ Stage 7 – Disabled Collectstatic and added secret_key on Heroku convig vars
 Stage 8 – Ensured it is set to EcoDyno
 Stage 9 – Connect to Github
 Stage 10 – Deploy on Heroku and view app to confirm deployment
+
+
+
 
 
 <h2>Features</h2>
