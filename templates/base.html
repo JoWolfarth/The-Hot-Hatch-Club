@@ -12,9 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Google Fonts CSS -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap" rel="stylesheet">
+
 
     <!-- Font Awesome CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
@@ -30,7 +28,7 @@
 <body class="d-flex flex-column h-100 main-bg">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="{% url 'home' %}"><span class="brand">The Hot Hatch Club</span></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
@@ -62,9 +60,11 @@
                     </li>
                     {% endif %}
                 </ul>
-                <span class="navbar-text text-muted">
-                    Why my hot hatch is the best!
-                </span>
+                        {% if user.is_authenticated %}
+        <p class="text-end m-3">You are logged in as {{ user }}</p>
+        {% else %}
+        <p class="text-end m-3">You are not logged in</p>
+        {% endif %}
             </div>
         </div>
     </nav>
@@ -85,13 +85,6 @@
     </div>
 
     <main class="flex-shrink-0 main-bg">
-        {% if user.is_authenticated %}
-        <p class="text-end m-3">You are logged in as {{ user }}</p>
-        {% else %}
-        <p class="text-end m-3">You are not logged in</p>
-        {% endif %}
-
-
         {% block content %}
         <!-- Content Goes here -->
         {% endblock content %}
@@ -99,7 +92,7 @@
     </main>
 
     <!-- Footer -->
-    <footer class="footer mt-auto py-3 dark-bg">
+    <footer class="footer mt-auto py-3">
         <p class="m-0 text-center text-white">Jo Wolfarth</p>
         <p class="m-0 text-center text-white">Follow us: <i class="fab fa-facebook-square ms-3"></i>
             <i class="fab fa-twitter-square ms-3"></i>

@@ -11,9 +11,6 @@
                 <h1 class="post-vehicle">{{ post.vehicle }}</h1>
                 <p class="post-subtitle">{{ post.user }} | {{ post.created_on }}</p>
             </div>
-            <div class="d-none d-md-block col-md-6 masthead-image">
-                <img src="{% static 'images/default.jpg' %}" class="scale" alt="placeholder">
-            </div>
         </div>
     </div>
 </div>
@@ -37,7 +34,7 @@
 
 <!-- Delete confirmation modal -->
 <div class="modal fade" id="deleteModal" tabindex="-1"
-  aria-labelledby="deleteModalLabel" aria-hidden="true">
+aria-labelledby="deleteModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
