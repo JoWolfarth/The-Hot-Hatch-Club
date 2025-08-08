@@ -19,7 +19,7 @@ class Post(models.Model):
     created_on = models.DateTimeField(auto_now_add=True)
     status = models.IntegerField(choices=((0, "Draft"), (1, "Published"),), default=0)
     approved = models.BooleanField(default=False)
-    excerpt = models.TextField(blank=True)
+    excerpt = models.TextField(max_length=100, null=True)
 
     def save(self, *args, **kwargs):
         if not self.slug or self.slug == "":
