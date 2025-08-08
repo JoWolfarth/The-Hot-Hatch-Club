@@ -52,7 +52,7 @@ body {
 }
 
 .light-bg {
-    background-color: #fff;
+    background-color: var(--text);
 }
 
 .dark-bg {
@@ -60,7 +60,7 @@ body {
 }
 
 .main-bg {
-    background-color: #F9FAFC;
+    background-color: var(--text);
 }
 
 .card {
@@ -70,6 +70,10 @@ body {
 
 .image-container {
     position: relative;
+}
+
+#footer {
+    color: var(--text);
 }
 
 .image-flash {
