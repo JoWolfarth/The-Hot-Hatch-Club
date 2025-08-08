@@ -1,6 +1,22 @@
 <h1 align="center"> The-Hot-Hatch-Club </h1>
 ![Hero Image](Readme_files/Hero_image/default.jpg)
 
+<h2>Table Of Contents</h2>
+
+1.  [Introduction](#Introduction)
+2.  [UX Design](#UX_Design)
+     - [User Stories](#User_Stories)
+     - [Colour Pallet](#Color_Pallet)
+     -[Fonts](#Fonts)
+3.  [WireFrames](#WireFrames)
+4.  [ERD](#ERD)
+5.  [Deployment](#Deployment)
+6.  [Features](#Features)
+7.  [Agile Design](#Agiles_Design)
+8.  [Testing](#Testing)
+9.  [AI Usage](#AI_Usage)
+10. [Credits](#Credits)
+
 
 <h2 align="center">Introduction</h2>
 
@@ -10,7 +26,7 @@ Built as a Django capstone project, Hot Hatch Club showcases key web development
 
 
 
-<h2>UX Design</h2>
+## UX Design
 <h3>User Stories<h3>
 
 <h4>Must Haves</h4>
