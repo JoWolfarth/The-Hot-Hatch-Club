@@ -1,3 +1,7 @@
+"""
+URL patterns for the posts app.
+Maps URLs to views for listing, creating, editing, and deleting posts.
+"""
 from django.urls import path, include
 from . import views
 

@@ -7,6 +7,15 @@ from django_summernote.admin import SummernoteModelAdmin
 
 @admin.register(Post)
 class PostAdmin(SummernoteModelAdmin):
+    """
+    Admin interface for managing instances of model :model:`Post`.
+
+    - Displays columns: 'vehicle', 'slug', and 'status'.
+    - Allows filtering by: 'status', 'created_on', 'user', and 'approved'.
+    - Automatically populates the 'slug' field from the 'vehicle' field.
+    - Uses Summernote editor for the 'content' field.
+    - Provides an action to mark selected posts as published.
+    """
     list_display = ('vehicle', 'slug', 'status')
     list_filter = ('status', 'created_on', 'user', 'approved')
     prepopulated_fields = {'slug': ('vehicle',)}
