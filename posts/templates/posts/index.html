@@ -15,7 +15,7 @@
             <p class="text-center">Explore the latest posts from our community!</p>
             <div class="container">
                     <div class="row">
-                        <div class="d-none mx-auto mb-4 d-md-block col-md-6 image ">
+                        <div class="mx-auto mb-4 col-md-6 image ">
                             <img src="{% static 'images/default.jpg' %}" class="scale" alt="placeholder">
                         </div>
                     </div>
@@ -25,6 +25,7 @@
 
         <!-- Blog Entries Column -->
         <div class="col-12 mt-3 left">
+            <!--Loops through posts and displays-->
             <div class="row">
                 {% for post in post_list %}
                 <div class="col-md-4">

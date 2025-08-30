@@ -6,7 +6,12 @@ const submitButton = document.getElementById("submitButton");
 
 const deleteButtons = document.getElementsByClassName("btn-delete");
 const deleteForm = document.getElementById("deleteForm");
-const deleteModal = new bootstrap.Modal(document.getElementById("deleteModal"));
+const deleteModalElement = document.getElementById("deleteModal");
+
+let deleteModal = null;
+if (deleteModalElement) {
+  deleteModal = new bootstrap.Modal(deleteModalElement);
+}
 
 
 /**
@@ -45,5 +50,8 @@ for (let button of deleteButtons) {
     let postId = e.target.getAttribute("post_id");
     deleteForm.action = `/delete_post/${postId}/`;
     deleteModal.show();
+        if (deleteModal) {
+      deleteModal.show();
+    }
   });
 }
