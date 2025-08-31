@@ -225,6 +225,31 @@ This trailing slash seems to be comming from crispy forms
 
 ![CSS validation](./Readme_files/Images/CSS.png)
 
+<h3>Python Validation</h3>
+
+<h4>Admin</h4>
+
+![Python admin validation](./Readme_files/Images/python-admin.png)
+
+<h4>Apps</h4>
+
+![Python apps validation](./Readme_files/Images/python-admin.png)
+
+<h4>Forms</h4>
+
+![Python forms validation](./Readme_files/Images/python-forms.png)
+
+<h4> Models</h4>
+
+![Python model validation](./Readme_files/Images/python-models.png)
+
+<h4>URLS</h4>
+
+![Python urls validation](./Readme_files/Images/python-urls.png)
+
+<h4>Views</h4>
+
+![Python views validation](./Readme_files/Images/python-views.png)
 
 
 <h3>Preformance</h3>
@@ -234,14 +259,9 @@ This trailing slash seems to be comming from crispy forms
 ![lighthouse desktop](./Readme_files/Images/lighthouse-desktop.png)
 
 
-
-
-
-
 <h2>AI Usage</h2>
 
 AI tools were used throughout the development process to enhance efficiency, accuracy, and decision-making. GitHub Copilot and inline chat supported code creation by completing repetitive structures and suggesting relevant snippets, allowing me to focus on core logic. Inline chat also played a key role in debugging, helping identify and resolve issues quickly while deepening my understanding of the codebase.
 For testing and optimisation, I used tools like Lighthouse to assess performance and accessibility, and W3Schools AI assistant to clarify HTML, CSS, and JavaScript behavior during frontend refinement. These tools provided actionable insights that improved both user experience and code quality. Copilot also generated Django unit tests for key features, which I reviewed and adjusted to ensure meaningful coverage and logical accuracy.
 Overall, AI tools significantly improved my workflow by reducing manual effort, accelerating problem-solving, and supporting better design decisions. I plan to continue using them during final testing and will expand this reflection as further refinements are made.
 
-<h2>Credits</h2>

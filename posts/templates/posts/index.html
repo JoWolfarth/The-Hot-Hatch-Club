@@ -38,7 +38,7 @@
                             </div>
                             {% if post.slug %}
                             <a href="{% url 'post_detail' post.slug %}" class="post-link">
-                                <p class="card-text">{{ post.excerpt }}</p>
+                                <span class="card-text">{{ post.excerpt }}</span>
                             </a>
                             {% else %}
                             <p class="card-text">{{ post.excerpt }}</p>
