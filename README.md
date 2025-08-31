@@ -1,5 +1,6 @@
 <h1 align="center"> The-Hot-Hatch-Club </h1>
-![Hero Image](Readme_files/Hero_image/default.jpg)
+
+![Homepage-image](./Readme_files/Images/Homepage.png)
 
 <h2>Table Of Contents</h2>
 
@@ -187,6 +188,15 @@ Stage 10 – Deploy on Heroku and view app to confirm deployment
 To stay on track with the Agile framework and make sure I delivered a solid Minimum Viable Product (MVP), I used a Kanban board along with the MoSCoW prioritization method. This helped me organize tasks by importance—focusing on what must be done first, while keeping less critical features for later. Using these tools made it easier to manage progress, avoid delays, and stay focused on the key features needed for the MVP. It also gave me flexibility to adjust as the project developed
 
 <h2>Testing</h2>
+
+Throughout development, I rigorously tested each feature to ensure seamless functionality across both mobile and desktop platforms. Every component was verified to perform reliably, free from bugs or usability issues.
+<h2>Validation</h2>
+To confirm the integrity and standards compliance of the project, I utilized a range of online validation tools. These helped ensure optimal performance, accessibility, and adherence to best practices.
+
+<h3>HTML</h3>
+
+
+
 
 <h2>AI Usage</h2>
 
