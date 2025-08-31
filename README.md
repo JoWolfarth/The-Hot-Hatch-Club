@@ -195,15 +195,31 @@ To confirm the integrity and standards compliance of the project, I utilized a r
 
 <h3>HTML</h3>
 
-![Homepage Html](./Readme_files/Images/Html-homepage.png)
+<h4>Homepage</h4>
 
-![create post html](./Readme_files/Images/create-post.png)
+![ hourlmepage validation](./Readme_files/Images/homepage-url.png)
 
-![edit post html](./Readme_files/Images/edit-post.png)
+![Homepage Html validation](./Readme_files/Images/Html-homepage.png)
 
-![post detail html](./Readme_files/Images/post-detail.png)
+<h4>Create post</h4>
 
-![URL Validation](./Readme_files/Images/URL-validation.png)
+![create post html validation](./Readme_files/Images/create-post.png)
+
+![url create post validation](./Readme_files/Images/create-post-url.png)
+
+This trailing slash seems to be comming from crispy forms
+
+<h4>Edit post</h4>
+
+![edit post html validation](./Readme_files/Images/edit-post.png)
+
+![url edit post html validation](./Readme_files/Images/edit-post-url.png)
+
+<h4>Post Detail</h4>
+
+![post detail html validation](./Readme_files/Images/post-detail.png)
+
+![url post detail validation](./Readme_files/Images/post-detail-url.png)
 
 <h3>CSS Validation</h3>
 
@@ -211,7 +227,11 @@ To confirm the integrity and standards compliance of the project, I utilized a r
 
 
 
+<h3>Preformance</h3>
 
+![lighthouse mobile](./Readme_files/Images/lighthouse-mobile.png)
+
+![lighthouse desktop](./Readme_files/Images/lighthouse-desktop.png)
 
 
 
