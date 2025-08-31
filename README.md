@@ -195,6 +195,26 @@ To confirm the integrity and standards compliance of the project, I utilized a r
 
 <h3>HTML</h3>
 
+![Homepage Html](./Readme_files/Images/Html-homepage.png)
+
+![create post html](./Readme_files/Images/create-post.png)
+
+![edit post html](./Readme_files/Images/edit-post.png)
+
+![post detail html](./Readme_files/Images/post-detail.png)
+
+![URL Validation](./Readme_files/Images/URL-validation.png)
+
+<h3>CSS Validation</h3>
+
+![CSS validation](./Readme_files/Images/CSS.png)
+
+
+
+
+
+
+
 
 
 
