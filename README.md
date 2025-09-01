@@ -146,10 +146,12 @@ As a **club member** I can **view upcoming organised events** so that **I can pl
 
 <h3>Wireframes</h3>
 
-![View Wireframes](./Readme_files/Wireframes/The_Hot_Hatch_Club.bmpr)
+![homepage wireframe](./Readme_files/Wireframes/homepage-desktop.png)
 
 <h2>ERD</h2>
-0
+
+![ERD](./Readme_files/ERD/erd.jpeg)
+
 <h2>Deployment</h2>
 Deployment was done in several stages.
 Github and VS code
