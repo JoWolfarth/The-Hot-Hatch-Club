@@ -30,6 +30,7 @@ Built as a Django capstone project, Hot Hatch Club showcases key web development
 <h2>UX Design</h2>
 <h3>User Stories<h3>
 
+
 <h4>Must Haves</h4>
 As a **visitor** I can **register** so that **I can post about my vehicle**.
 
@@ -144,9 +145,33 @@ As a **club member** I can **view upcoming organised events** so that **I can pl
 
 ![View Colour Pallet](./Readme_files/Colour_pallet/The_Hot_Hatch1_Club.png)
 
+I choose these colours as they represent the majority of Sports cars and works well with the hero image on the homepage.
+
 <h3>Wireframes</h3>
 
+<h4>Homepage Desktop</h4>
+
 ![homepage wireframe](./Readme_files/Wireframes/homepage-desktop.png)
+
+<h4>Vehicle Detail Page Desktop</h4>
+
+![Vehicle Detail desktop wireframe](./Readme_files/Wireframes/vehicle-detail-desktop.png)
+
+<h4>Log In Page Desktop</h4>
+
+![Log In Desktop](./Readme_files/Wireframes/log-in-desktop.png)
+
+<h4>Homepage Mobile</h4>
+
+![homepage mobile](./Readme_files/Wireframes/homepage-mobile.png)
+
+<h4>Vehicle Detail Page Mobile</h4>
+
+![Vehicle detail Mobile](./Readme_files/Wireframes/vehicle-detail-mobile.png)
+
+<h4>Log In Page Mobile</h4>
+
+![Log In Mobile](./Readme_files/Wireframes/log-in-mobile.png)
 
 <h2>ERD</h2>
 
@@ -260,6 +285,17 @@ This trailing slash seems to be comming from crispy forms
 ![lighthouse mobile](./Readme_files/Images/lighthouse-mobile.png)
 
 ![lighthouse desktop](./Readme_files/Images/lighthouse-desktop.png)
+
+<h3>User Story test</h3>
+
+| User Story                                                                 | Expected Outcome                                                       | Pass / Fail |
+|---------------------------------------------------------------------------|------------------------------------------------------------------------|-------------|
+| As a **visitor** I can **register** so that I can **post about my vehicle.**         | Be able to register an account                                         | Pass        |
+| As a **post author** I can **edit my posts** so that **I can keep my content accurate and up to date.** | Be able to edit a post                                                 | Pass        |
+| As an **admin** I can **approve user posts** so that **the site content stays appropriate and moderated.** | Post should not be shown until reviewed and approved by an admin       | Pass        |
+| As a **visitor** I can **log in & out** so that **I can edit my posts & comments.**  | Registered user should be able to log in and out and clearly see if they are logged in | Pass        |
+|As a **logged user** I can **create a post about my hot hatch** so that **others can view my car details.** | Be able to create a post about a vehicle | pass       |
+|As a **visitor** I can **click on a post for full details** so that **I can learn more about the vehicle.** | Be able to click on a post and see the details and comments in the post | Pass |
 
 
 <h2>AI Usage</h2>

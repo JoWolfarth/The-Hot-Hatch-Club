@@ -1,0 +1,4 @@
+User StoryExpected outcomePass / FailAs a visitor I can register so that I can post about my vehicle.Be able to register an accountPassAs a post author I can edit my posts so that I can keep my content accurate and up to date.
+Be able to edit a post PassAs a admin I can approve user posts so that the site content stays appropriate and moderated.
+Post should not be shown until reviewed and approved by an adminPassAs a visitor I can log in & out so that I can edit my posts & comments.
+Registered user should be able to log in and out and clearly see if they are logged in Pass
