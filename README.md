@@ -14,10 +14,9 @@
 5.  [Deployment](#Deployment)
 6.  [Features](#Features)
 7.  [Tech Stack](#Tech-Stack)
-8.  [Agile Design](#Agiles-Design)
+8.  [Agile Design](#Agile-Design)
 9.  [Testing](#Testing)
 10. [AI Usage](#AI-Usage)
-11. [Credits](#Credits)
 
 
 <h2 align="center">Introduction</h2>
@@ -142,13 +141,15 @@ As a **club member** I can **view upcoming organised events** so that **I can pl
 - Events display on a dedicated page or section accessible from the main navigation
 
 <h3>Colour Pallet</h3>
-[View Colour Pallet](./Readme_files/Colour_pallet/The_Hot_Hatch1_Club.png)
+
+![View Colour Pallet](./Readme_files/Colour_pallet/The_Hot_Hatch1_Club.png)
 
 <h3>Wireframes</h3>
-[View Wireframes](./Readme_files/Wireframes/The_Hot_Hatch_Club.bmpr)
+
+![View Wireframes](./Readme_files/Wireframes/The_Hot_Hatch_Club.bmpr)
 
 <h2>ERD</h2>
-
+0
 <h2>Deployment</h2>
 Deployment was done in several stages.
 Github and VS code
